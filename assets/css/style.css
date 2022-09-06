@@ -1,0 +1,124 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+ font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:  center;
+    justify-content: center;
+    height:100vh;      
+}
+
+.onboarding{
+    display: flex;
+    flex-direction: column;
+    max-width: 23.43rem;
+    max-height: 50.75rem;
+    height: 50.75rem;
+    gap: 1.875rem;
+    background-color: #ffffff;
+    border-radius: 1.875rem;
+    padding: 2rem;
+    box-shadow: 40px 60px 80px rgba(7, 11, 20, 0.15), inset -2px -10px 20px rgba(152, 173, 217, 0.25), inset 10px 2px 20px #FFFFFF;
+}
+
+.onboarding article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.75rem;
+}
+
+.onboarding figure{
+    width: 100%;
+    max-width: 18.75rem;
+    max-height: 21.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.onboarding figure img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.onboarding article h1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.625rem;
+}
+
+.onboarding article p{
+    font-size: 1.125rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* Dots */
+.dots{
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.dots .dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 0.125rem solid #000000;
+    border-radius: 50%;
+}
+
+.dots .dot:hover {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 0.125rem solid #000000;
+    background-color: #92e3a9;
+    border-radius: 50%;
+}
+
+.dots .active{
+    border: 0.063rem solid #92e3a9;
+    background-color: #92e3a9;
+}
+
+/* Section nav-btn */
+.nav-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.nav-btn a.btn{
+    display: flex;
+    width: 100%;
+    max-width: 308px;
+    height: 34px;
+    padding: 0.625rem 1.25rem;
+    background: #92E3A9;
+    box-shadow: 0px 0.25rem 0.625rem #A1C3FC;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    align-items: center;
+} 
+
+.nav-btn a.btn:hover{
+    background-color: #62c07d;
+}
+
+.nav-btn a.btn-link{
+    font-size: 1.125rem;
+    color: #92E3A9;
+    display: block;
+}
