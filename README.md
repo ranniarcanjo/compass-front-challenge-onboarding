@@ -1,2 +1,2 @@
-# compass-front-challenge-onboarding
+# Compass Front Challenge Onboarding
 First front-end challange compass uol
