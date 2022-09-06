@@ -3,6 +3,8 @@
 
 body{
  font-family: 'Poppins', sans-serif;
+ width: 100vw;
+ /* background-color: #92e3a9; */
 }
 
 main{
@@ -24,14 +26,13 @@ main{
     background-color: #ffffff;
     border-radius: 1.875rem;
     padding: 2rem;
-    box-shadow: 40px 60px 80px rgba(7, 11, 20, 0.15), inset -2px -10px 20px rgba(152, 173, 217, 0.25), inset 10px 2px 20px #FFFFFF;
 }
 
 .onboarding article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2.75rem;
+    margin-bottom: 2rem;
 }
 
 .onboarding figure{
@@ -43,7 +44,6 @@ main{
 
 .onboarding figure img{
     width: 100%;
-    object-fit: cover;
 }
 
 .onboarding article h1{
@@ -65,7 +65,7 @@ main{
     gap: 0.625rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .dots .dot {
@@ -121,4 +121,41 @@ main{
     font-size: 1.125rem;
     color: #92E3A9;
     display: block;
+}
+
+
+@media only screen and (max-width: 480px){
+    
+    main{
+        height: 100%; 
+    }
+
+    .onboarding{
+        height: 100%;
+        border-radius: 0;
+        gap: 0rem;
+        box-shadow: none;
+        padding: 0rem 2rem 2rem 2rem;
+    }
+
+    .onboarding article{
+        margin-bottom: 1,5rem;
+    }
+
+    .onboarding figure{
+        margin-top: 0.8rem;
+    }
+
+    .onboarding article h1{
+        margin-bottom: 1rem;
+    }
+
+    .dots{
+        margin-bottom: 2rem;
+    }
+
+    .nav-btn a.btn{
+        width: 70%;
+        margin-bottom: 1rem;
+    }
 }
